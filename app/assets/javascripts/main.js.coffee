@@ -5,6 +5,7 @@
 #= require_tree ./controllers/notes
 #= require_tree ./controllers/sessions
 #= require_tree ./directives
+#= require angular-cookie/angular-cookie
 
 Organizer = angular.module('Organizer', ['ngRoute', 'ngResource', 'ngAnimate', 'templates'])
 
